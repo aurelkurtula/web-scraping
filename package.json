@@ -1,0 +1,22 @@
+{
+  "name": "web-scraping",
+  "version": "0.0.1",
+  "description": "Web Scraping with node.",
+  "main": "bookList.js",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "scripts": {
+    "books": "node bookList.js",
+    "dev": "node devtoList.js",
+    "movies": "node movieList.js"
+  },
+  "keywords": [
+    "node",
+    "cheerio",
+    "axios"
+  ],
+  "author": "Aurel Kurtula",
+  "license": "ISC"
+}
